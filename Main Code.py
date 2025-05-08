@@ -61,5 +61,5 @@ r2_ = r2_score(y_test,y_pred)
 #Developing Equation
 enet_cv_model.coef_
 enet_cv_model.intercept_
-def EPEScorePrediction(x): #Regression Equation: EPE = 33.89 + 0.556 * X
-   return 33.89125357785172 + 0.55654177*x
+def EPEScorePrediction(1_note_mean): #Regression Equation: EPE = 33.89 + 0.556 * X
+   return 33.89125357785172 + 0.55654177*1_not_mean

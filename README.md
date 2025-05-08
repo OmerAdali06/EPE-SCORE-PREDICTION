@@ -49,6 +49,3 @@ Missing values in `2_note_mean` were imputed using the sex-wise group mean. Outl
 def EPEScorePrediction(1_note_mean):
     return 33.89 + 0.556 * 1_note_mean  #Simplified linear formula based on coefficients and intercept.
 ```
-#Graphics of Data
-
-![Pairplot](Graphics%20of%20Data/pairplot_of_feature_by_sex.png)
